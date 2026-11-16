@@ -1,16 +1,13 @@
 # Animal Attack
 
-Place animated animals in your space, let them fall from the sky, and clear them with playful weapon effects. 
+Place animated animals in your space, let them fall from the sky, and clear them with playful weapon effects.
 
 ## Usage
 
-1. Start the desktop simulator or enter XR with the on-screen controls. Allow time for the animal models to load.
-2. Use the arrows in the animal picker to choose an animal.
-3. Select and drag the animal image into the scene, then release to place it. Turn **Weapons** off to drag animals that are already in the scene.
-4. With **Weapons** on, select an animal or surface to fire a randomly chosen effect. Use a mouse click in the simulator, or a pinch or controller trigger in XR.
-5. Use **Rain** to toggle falling animals. Turning rain off also clears the active animals.
-
-Use the simulator's instructions for navigation. Real-world occlusion and surface interactions require depth support; the simulator uses its virtual environment.
+1. Use the arrows in the animal picker to choose an animal.
+2. Select and drag the animal image into the scene, then release to place it. Turn **Weapons** off to drag animals that are already in the scene.
+3. With **Weapons** on, select an animal or surface to fire a randomly chosen effect. Use a mouse click in the simulator, or a pinch or controller trigger in XR.
+4. Use **Rain** to toggle falling animals. Turning rain off also clears the active animals.
 
 ## Assets and credits
 
@@ -27,7 +24,9 @@ Use the simulator's instructions for navigation. Real-world occlusion and surfac
 
 ## Tested Devices
 
-- Simulator
 - Galaxy XR
-- 
+- Simulator
+
 ## Known limitations
+
+Real-world occlusion and surface interactions require depth support; the simulator uses its virtual environment.
