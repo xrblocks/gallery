@@ -1,0 +1,91 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "XR Blocks Gallery primitive cube"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Cube"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.25,
+          0.55,
+          0.9,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AACAPgAAgL4AAIC+AACAPgAAgD4AAIA+AACAPgAAgL4AAIA+AACAPgAAgL4AAIC+AACAPgAAgD4AAIC+AACAPgAAgD4AAIA+AACAvgAAgL4AAIA+AACAvgAAgD4AAIC+AACAvgAAgL4AAIC+AACAvgAAgL4AAIA+AACAvgAAgD4AAIA+AACAvgAAgD4AAIC+AACAvgAAgD4AAIC+AACAPgAAgD4AAIA+AACAPgAAgD4AAIC+AACAvgAAgD4AAIC+AACAvgAAgD4AAIA+AACAPgAAgD4AAIA+AACAvgAAgL4AAIA+AACAPgAAgL4AAIC+AACAPgAAgL4AAIA+AACAvgAAgL4AAIA+AACAvgAAgL4AAIC+AACAPgAAgL4AAIC+AACAPgAAgL4AAIA+AACAvgAAgD4AAIA+AACAvgAAgL4AAIA+AACAPgAAgL4AAIA+AACAPgAAgD4AAIA+AACAvgAAgD4AAIA+AACAvgAAgL4AAIC+AACAPgAAgD4AAIC+AACAPgAAgL4AAIC+AACAvgAAgL4AAIC+AACAvgAAgD4AAIC+AACAPgAAgD4AAIC+AACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAPwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAACAvwAAAAAAAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgD8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAgL8AAAAAAAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/",
+      "byteLength": 864
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 432,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 432,
+      "byteLength": 432,
+      "target": 34962
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3",
+      "min": [
+        -0.25,
+        -0.25,
+        -0.25
+      ],
+      "max": [
+        0.25,
+        0.25,
+        0.25
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 36,
+      "type": "VEC3"
+    }
+  ]
+}
