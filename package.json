@@ -1,0 +1,34 @@
+{
+  "name": "xrblocks-gallery",
+  "private": true,
+  "description": "Standalone XR Blocks demos and experiments",
+  "type": "module",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xrblocks/gallery.git"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "dev": "npm run build && concurrently --kill-others \"npm:build:watch\" \"npm:serve\"",
+    "start": "npm run dev",
+    "build": "node tools/build.js",
+    "build:watch": "chokidar \"demos/**/*\" \"template/**/*\" -i \"**/build/**\" -i \"**/node_modules/**\" -i \"**/*.test.*\" -c \"npm run build\" --debounce 200",
+    "serve": "http-server . --cors -c-1 -a 127.0.0.1 -p 8080",
+    "lint": "oxlint demos template tools",
+    "format": "npm run format:fix",
+    "format:fix": "prettier \"**/*.{cjs,html,js,json,md,mdx,ts,css,yml,yaml}\" --write",
+    "format:check": "prettier \"**/*.{cjs,html,js,json,md,mdx,ts,css,yml,yaml}\" --check",
+    "check": "npm run lint && npm run format:check && npm run build"
+  },
+  "devDependencies": {
+    "chokidar-cli": "3.0.0",
+    "concurrently": "10.0.7",
+    "http-server": "14.1.1",
+    "oxlint": "1.86.0",
+    "prettier": "3.6.2",
+    "rolldown": "1.2.11"
+  }
+}
